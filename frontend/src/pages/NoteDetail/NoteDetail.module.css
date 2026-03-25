@@ -1,0 +1,141 @@
+.wrapper {
+  max-width: 780px;
+  margin: 32px auto;
+  padding: 0 16px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 32px 36px;
+}
+
+.center {
+  text-align: center;
+  padding: 80px 0;
+  color: #888;
+  font-size: 1rem;
+}
+
+.backBtn {
+  background: none;
+  border: none;
+  color: #ff4500;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 0;
+  margin-bottom: 20px;
+  display: inline-block;
+  transition: opacity 0.2s;
+}
+
+.backBtn:hover {
+  opacity: 0.75;
+}
+
+.subject {
+  display: inline-block;
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin-bottom: 14px;
+}
+
+.title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #1c1c1c;
+  line-height: 1.35;
+  margin: 0 0 14px 0;
+}
+
+.meta {
+  display: flex;
+  gap: 20px;
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  padding: 16px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #ff4500;
+}
+
+/* ── Download row ── */
+.downloadRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f6f7f8;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-bottom: 24px;
+}
+
+.fileName {
+  font-size: 0.88rem;
+  color: #555;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 400px;
+}
+
+.downloadBtn {
+  background: #ff4500;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.downloadBtn:hover {
+  background: #e03d00;
+}
+
+/* ── Vote row ── */
+.voteRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  margin-bottom: 8px;
+}
+
+.deleteBtn {
+  background: none;
+  border: 1.5px solid #ffb3b3;
+  color: #cc0000;
+  padding: 7px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.deleteBtn:hover {
+  background: #fff0f0;
+}
