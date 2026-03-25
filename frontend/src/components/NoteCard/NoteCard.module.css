@@ -1,0 +1,97 @@
+.card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 20px 24px;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.15s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(255, 69, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.subject {
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.author {
+  font-size: 0.82rem;
+  color: #888;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1c1c1c;
+  margin: 0 0 10px 0;
+  line-height: 1.4;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0 0 16px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.votes {
+  display: flex;
+  gap: 12px;
+}
+
+.upvote {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #ff4500;
+}
+
+.downvote {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #7193ff;
+}
+
+.right {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.fileName {
+  font-size: 0.78rem;
+  color: #aaa;
+  max-width: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.date {
+  font-size: 0.8rem;
+  color: #aaa;
+}

@@ -1,0 +1,44 @@
+.voteContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.upvoteBtn,
+.downvoteBtn {
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.upvoteBtn {
+  background: #fff3f0;
+  color: #ff4500;
+  border: 1.5px solid #ff4500;
+}
+
+.upvoteBtn:hover:not(:disabled) {
+  background: #ff4500;
+  color: #fff;
+}
+
+.downvoteBtn {
+  background: #f0f2ff;
+  color: #7193ff;
+  border: 1.5px solid #7193ff;
+}
+
+.downvoteBtn:hover:not(:disabled) {
+  background: #7193ff;
+  color: #fff;
+}
+
+.upvoteBtn:disabled,
+.downvoteBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
