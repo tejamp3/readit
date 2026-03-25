@@ -1,5 +1,7 @@
-target/ 
-.classpath 
-.project 
-.settings/ 
-*.class 
+﻿node_modules/
+target/
+.metadata/
+.settings/
+.classpath
+.project
+*.class
